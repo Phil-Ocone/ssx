@@ -883,34 +883,36 @@
     uri-js "^4.4.1"
     valid-url "^1.0.9"
 
-"@spruceid/ssx-core@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@spruceid/ssx-core/-/ssx-core-1.0.1.tgz#57c4afde39e9a3e694192fc40f28d99aa4acac4d"
-  integrity sha512-xBXAj6cUSsgWNs9XC129NFAQ5iy2PaFuhydmyNXkfTmiaKrDk0ThjrkDV/oNb6L2UiazmX4nEnLfBlr8PlsFBg==
+"@spruceid/ssx-core@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@spruceid/ssx-core/-/ssx-core-1.1.1.tgz#1c08b7d69f4085d79c2d98ace5f4159b3fc65946"
+  integrity sha512-n1XlG/VLe95J8ToV/GPGG7cidnyqR6s5cafhZ/w6J3ZCXh4qLKoJ3HCJ8TtZxNWZRNM/L8Prf1zS58GSdK7HTA==
   dependencies:
     axios "^0.27.2"
     express "^4.18.1"
     express-session "^1.17.3"
     siwe "^2.1.2"
 
-"@spruceid/ssx-gnosis-extension@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/@spruceid/ssx-gnosis-extension/-/ssx-gnosis-extension-1.1.1.tgz#a5a34fde0521079e372fa686684a8ecb5ded11cc"
-  integrity sha512-oUgNQN+NdaU8DoOUcnGxqtWmvozz60Yy73BfytCNNeBNUeRNaY/y6U5AA+bqHhaxHRiWoJDPXUFccLz4s0NRsQ==
+"@spruceid/ssx-gnosis-extension@1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@spruceid/ssx-gnosis-extension/-/ssx-gnosis-extension-1.1.4.tgz#cf63c5c12edfb9346a58e766fd709c710276eedb"
+  integrity sha512-HTg61SsKHV18JBO0cXgha0Y3SCS8qxVvTWiIFFf05PPDDWmjdrooUxU87sVWez3F5mkh3MHxmKnTIrPB5byKAg==
   dependencies:
-    "@spruceid/ssx-core" "1.0.1"
+    "@spruceid/ssx-core" "1.1.1"
 
 "@spruceid/ssx-sdk-wasm@0.1.2":
   version "0.1.2"
   resolved "https://registry.npmjs.org/@spruceid/ssx-sdk-wasm/-/ssx-sdk-wasm-0.1.2.tgz#d28301d83b4b008247fef774a082c4c50bd3c4ee"
   integrity sha512-PuxRlyTlycXrTU11B22XcCz1PUU7p5krXxnb+ztPkgR3fAMP3ubENgoUyLllUJXxx2O/Jpne+0P9HIro+vilPg==
 
-"@spruceid/ssx@file:../../packages/ssx-sdk":
-  version "1.1.1"
+"@spruceid/ssx@1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@spruceid/ssx/-/ssx-1.2.3.tgz#e3d41320f051b577aed2d649cc1741b0f93f43d5"
+  integrity sha512-A61WzyKSAFUbqGT0PFMQtvm0BGJJL18tU11FmvW7CRq65gvtwmsFlkZ3qhlDhxH6H29B1BPKTxSQpymIdrnt1A==
   dependencies:
     "@metamask/detect-provider" "^1.2.0"
-    "@spruceid/ssx-core" "1.0.1"
-    "@spruceid/ssx-gnosis-extension" "1.1.1"
+    "@spruceid/ssx-core" "1.1.1"
+    "@spruceid/ssx-gnosis-extension" "1.1.4"
     "@spruceid/ssx-sdk-wasm" "0.1.2"
     "@types/lodash.merge" "^4.6.7"
     assert "^2.0.0"
