@@ -1011,8 +1011,10 @@
   dependencies:
     "@spruceid/ssx-core" "1.1.1"
 
-"@spruceid/ssx-react@file:../../packages/ssx-react":
-  version "1.2.3"
+"@spruceid/ssx-react@1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@spruceid/ssx-react/-/ssx-react-1.2.4.tgz#a50df000374bdb822cc2a68e31f79d9c56591693"
+  integrity sha512-eJJW6/QwUkuqwbL193+MhdGEqz6n/fUBThdRfjaLSiTdXClikqIq65IosM61YHNN6VZ9ZpUBuyn9rxQ8zGSvSA==
   dependencies:
     "@spruceid/ssx" "1.2.3"
     "@spruceid/ssx-server" "1.2.2"
