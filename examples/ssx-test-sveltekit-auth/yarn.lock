@@ -713,12 +713,14 @@
     uri-js "^4.4.1"
     valid-url "^1.0.9"
 
-"@spruceid/ssx-authjs@file:../../packages/ssx-authjs":
-  version "0.1.0"
+"@spruceid/ssx-authjs@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@spruceid/ssx-authjs/-/ssx-authjs-1.0.0.tgz#4d9f9ebd173d347169b365c2a3ce9c1a762d7447"
+  integrity sha512-LpJvb7O1Ps1NF7sA510ePzneNjtfXwBfGyA82fog4I5YR8ht/vILei9KV4pMQmiyBfI4+RYHqmH30ImQkUIrRA==
   dependencies:
     "@auth/core" "^0.4.0"
-    "@spruceid/ssx" "^1.2.2"
-    "@spruceid/ssx-server" "1.2.2"
+    "@spruceid/ssx" "^1.2.5"
+    "@spruceid/ssx-server" "1.2.3"
     "@sveltejs/kit" "^1.8.8"
     next-auth "^4.10.3"
     siwe "^2.1.3"
@@ -733,12 +735,29 @@
     express-session "^1.17.3"
     siwe "^2.1.2"
 
+"@spruceid/ssx-core@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@spruceid/ssx-core/-/ssx-core-1.2.0.tgz#15f9f1f45d9d2cb2187ca532f38286c326f123bc"
+  integrity sha512-rN0KXbzO4moh2932c2wH6xWt7OCHTtMg4z75gXqcXMD4y7pV9eZ6X90USO7amT63YxOQdWlmB7Ce7O/iy2sJtQ==
+  dependencies:
+    axios "^0.27.2"
+    express "^4.18.1"
+    express-session "^1.17.3"
+    siwe "^2.1.2"
+
 "@spruceid/ssx-gnosis-extension@1.1.4":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@spruceid/ssx-gnosis-extension/-/ssx-gnosis-extension-1.1.4.tgz#cf63c5c12edfb9346a58e766fd709c710276eedb"
   integrity sha512-HTg61SsKHV18JBO0cXgha0Y3SCS8qxVvTWiIFFf05PPDDWmjdrooUxU87sVWez3F5mkh3MHxmKnTIrPB5byKAg==
   dependencies:
     "@spruceid/ssx-core" "1.1.1"
+
+"@spruceid/ssx-gnosis-extension@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@spruceid/ssx-gnosis-extension/-/ssx-gnosis-extension-1.1.5.tgz#19a122ba4d2bb06095d8218d7af0f7bd5fd62ec0"
+  integrity sha512-FKPXZBBLk4/sPOD4YooGdAPx8+ghg3047aYWjA51M2mGpplZ7maiiS9BHPCergPX53gx2ZAzXaLjOKG21mXdtg==
+  dependencies:
+    "@spruceid/ssx-core" "1.2.0"
 
 "@spruceid/ssx-sdk-wasm@0.1.2":
   version "0.1.2"
@@ -758,7 +777,38 @@
     express "^4.18.1"
     express-session "^1.17.3"
 
-"@spruceid/ssx-server@1.2.2", "@spruceid/ssx-server@^1.2.2":
+"@spruceid/ssx-server-middleware@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@spruceid/ssx-server-middleware/-/ssx-server-middleware-1.1.0.tgz#6aa799a4ad937ef92af743ac7fd88f3bd440972a"
+  integrity sha512-UpoYpTTRGHq+rbLHIJnGl+d+wU9GemSno+e0rXjD6BLenKg6ijyXz+4lqyCMGzoTdLnrSlXYl6Y4cbJLmORbnA==
+  dependencies:
+    "@spruceid/ssx-core" "1.2.0"
+    "@spruceid/ssx-gnosis-extension" "1.1.5"
+    body-parser "^1.20.0"
+    cookie-parser "^1.4.6"
+    cors "^2.8.5"
+    express "^4.18.1"
+    express-session "^1.17.3"
+
+"@spruceid/ssx-server@1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@spruceid/ssx-server/-/ssx-server-1.2.3.tgz#297bca12aa989003b0634cd904ecb3b2c5c17323"
+  integrity sha512-UbpZ4hDe8WgrrtyQ7y41n2eAzh4b1WD3vxOwRo2xcUwM3nRO6wSwk6B/v/0A4TtDVGe6Zr7pcWHLCUdTKb7Pkw==
+  dependencies:
+    "@spruceid/ssx-core" "1.2.0"
+    "@spruceid/ssx-gnosis-extension" "1.1.5"
+    "@spruceid/ssx-server-middleware" "1.1.0"
+    axios "^0.27.2"
+    body-parser "^1.20.0"
+    cookie-parser "^1.4.6"
+    cors "^2.8.5"
+    ethers "^5.7.1"
+    express "^4.18.1"
+    express-session "^1.17.3"
+    rc "^1.2.8"
+    siwe "^2.1.2"
+
+"@spruceid/ssx-server@^1.2.2":
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@spruceid/ssx-server/-/ssx-server-1.2.2.tgz#d5daadc84c790c8015273fe0f8a179520e7815b0"
   integrity sha512-4ja2r8ANKuduMae1qOIKM3Pn28z3+qdRMzxMd4EQYLAwGaSS1Vl6io1jafXlhTGmnUlVswenp7ilavaG7Xm6TA==
@@ -776,7 +826,7 @@
     rc "^1.2.8"
     siwe "^2.1.2"
 
-"@spruceid/ssx@^1.2.2", "@spruceid/ssx@^1.2.4":
+"@spruceid/ssx@^1.2.4":
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/@spruceid/ssx/-/ssx-1.2.4.tgz#c846bc2ef590d6ffb034555895a532a0cf9d0ee5"
   integrity sha512-ax/ViaiyyPjbWa9VQ6+z176wfA57awwLYfnw2uaQ1DS0HLFPA94Adjo81F6o53AdOSXCNlHgUWYujcHEI6glkg==
@@ -784,6 +834,35 @@
     "@metamask/detect-provider" "^1.2.0"
     "@spruceid/ssx-core" "1.1.1"
     "@spruceid/ssx-gnosis-extension" "1.1.4"
+    "@spruceid/ssx-sdk-wasm" "0.1.2"
+    "@types/lodash.merge" "^4.6.7"
+    assert "^2.0.0"
+    axios "^0.27.2"
+    browser "^0.2.6"
+    buffer "^6.0.3"
+    cross-env "5.0.5"
+    ethers "^5.7.1"
+    events "^3.3.0"
+    https-browserify "^1.0.0"
+    lodash.merge "^4.6.2"
+    os-browserify "^0.3.0"
+    path-browserify "^1.0.1"
+    process "^0.11.10"
+    siwe "^2.1.2"
+    stream-browserify "^3.0.0"
+    stream-http "^3.2.0"
+    url "^0.11.0"
+    util "^0.12.4"
+    web3modal "^1.9.7"
+
+"@spruceid/ssx@^1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@spruceid/ssx/-/ssx-1.2.5.tgz#c0ddb43f7051fb422fa86d5f21dce37ec8125a13"
+  integrity sha512-Zpv3t/buwwiuqkz5AstEeK5+I6SxGLOMFRN2iw8KIOKkSTZ7yxkKdEM1shlGII6DymVvi8DZP6oXKWBa3RtQ2w==
+  dependencies:
+    "@metamask/detect-provider" "^1.2.0"
+    "@spruceid/ssx-core" "1.2.0"
+    "@spruceid/ssx-gnosis-extension" "1.1.5"
     "@spruceid/ssx-sdk-wasm" "0.1.2"
     "@types/lodash.merge" "^4.6.7"
     assert "^2.0.0"
