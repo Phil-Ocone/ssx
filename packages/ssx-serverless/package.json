@@ -31,7 +31,7 @@
     "siwe": "^2.1.2",
     "@spruceid/ssx-core": "1.1.1",
     "@spruceid/ssx-gnosis-extension": "1.1.4",
-    "axios": "^0.27.2"
+    "axios": "^1.6.0"
   },
   "devDependencies": {
     "@microsoft/api-documenter": "^7.19.4",
