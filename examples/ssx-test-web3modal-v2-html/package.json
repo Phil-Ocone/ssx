@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@spruceid/ssx": "file:../../packages/ssx-sdk",
-    "@wagmi/core": "0.8.11",
+    "@wagmi/core": "0.10.0",
     "@web3modal/ethereum": "2.0.0-rc.2",
     "@web3modal/html": "2.0.0-rc.2",
     "ethers": "5.7.2"
