@@ -19,7 +19,7 @@
   "dependencies": {
     "@auth/core": "latest",
     "@auth/sveltekit": "latest",
-    "@spruceid/ssx": "^1.2.4",
+    "@spruceid/ssx": "^2.0.0",
     "@spruceid/ssx-server": "^1.2.2",
     "@spruceid/ssx-authjs":"file:../../packages/ssx-authjs",
     "siwe": "^2.1.3"
