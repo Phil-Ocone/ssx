@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "@rainbow-me/rainbowkit": "^0.7.2",
-    "@spruceid/ssx-authjs": "file:../../packages/ssx-authjs",
-    "@spruceid/ssx-react": "file:../../packages/ssx-react",
-    "@spruceid/ssx-server": "*",
+    "@spruceid/ssx-authjs": "1.0.0",
+    "@spruceid/ssx-react": "2.1.0",
+    "@spruceid/ssx-server": "2.1.0",
     "ethers": "^5.0.0",
     "next": "^12.1.6",
     "next-auth": "^4.10.3",
