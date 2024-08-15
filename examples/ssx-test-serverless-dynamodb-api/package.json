@@ -13,7 +13,7 @@
     "@middy/core": "^3.4.0",
     "@middy/http-json-body-parser": "^3.4.0",
     "@spruceid/ssx-serverless": "*",
-    "ethers": "^5.7.2",
+    "ethers": "^6.0.0",
     "keccak": "^3.0.2",
     "serverless-dynamodb-local": "0.2.40"
   },
