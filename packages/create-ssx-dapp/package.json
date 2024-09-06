@@ -19,12 +19,12 @@
   "dependencies": {
     "chalk": "5.0.1",
     "commander": "9.2.0",
-    "cpy": "9.0.1",
+    "cpy": "11.1.0",
     "execa": "6.1.0",
     "fs-extra": "10.1.0",
     "handlebars": "^4.7.7",
     "prompts": "2.4.2",
-    "validate-npm-package-name": "4.0.0"
+    "validate-npm-package-name": "5.0.1"
   },
   "scripts": {
     "build": ""
