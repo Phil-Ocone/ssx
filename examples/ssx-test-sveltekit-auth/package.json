@@ -17,10 +17,10 @@
     "vite": "4.0.1"
   },
   "dependencies": {
-    "@auth/core": "latest",
+    "@auth/core": "0.36.0",
     "@auth/sveltekit": "latest",
     "@spruceid/ssx": "^1.2.4",
-    "@spruceid/ssx-server": "^1.2.2",
+    "@spruceid/ssx-server": "^2.0.0",
     "@spruceid/ssx-authjs":"file:../../packages/ssx-authjs",
     "siwe": "^2.1.3"
   },
