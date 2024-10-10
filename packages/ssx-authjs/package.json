@@ -35,7 +35,7 @@
     "build": "tsc --jsx react-jsx"
   },
   "dependencies": {
-    "@auth/core": "^0.4.0",
+    "@auth/core": "^0.36.0",
     "@spruceid/ssx": "^1.2.2",
     "@spruceid/ssx-server": "1.2.2",
     "@sveltejs/kit": "^1.8.8",
