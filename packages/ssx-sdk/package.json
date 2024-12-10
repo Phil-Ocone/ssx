@@ -32,7 +32,7 @@
     "@spruceid/ssx-sdk-wasm": "0.1.2",
     "@types/lodash.merge": "^4.6.7",
     "assert": "^2.0.0",
-    "axios": "^0.27.2",
+    "axios": "^1.7.8",
     "browser": "^0.2.6",
     "buffer": "^6.0.3",
     "cross-env": "5.0.5",
