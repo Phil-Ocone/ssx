@@ -8,8 +8,8 @@
   "dependencies": {
     "@spruceid/ssx": "*",
     "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.0.0",
     "@web3modal/ethereum": "2.0.0-rc.2",
     "@web3modal/standalone": "2.0.0-rc.2",
     "buffer": "^6.0.3",
