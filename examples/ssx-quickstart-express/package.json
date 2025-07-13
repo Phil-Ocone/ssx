@@ -15,7 +15,7 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "@spruceid/ssx-server": "^1.2.2",
+    "@spruceid/ssx-server": "^2.1.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2"
