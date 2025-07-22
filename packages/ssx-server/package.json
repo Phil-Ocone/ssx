@@ -32,7 +32,7 @@
     "cors": "^2.8.5",
     "ethers": "^5.7.1",
     "express": "^4.18.1",
-    "express-session": "^1.17.3",
+    "express-session": "^1.18.2",
     "rc": "^1.2.8",
     "siwe": "^2.1.2"
   },
