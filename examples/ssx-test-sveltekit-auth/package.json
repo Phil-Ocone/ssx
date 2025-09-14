@@ -20,7 +20,7 @@
     "@auth/core": "latest",
     "@auth/sveltekit": "latest",
     "@spruceid/ssx": "^1.2.4",
-    "@spruceid/ssx-server": "^1.2.2",
+    "@spruceid/ssx-server": "^2.1.0",
     "@spruceid/ssx-authjs":"file:../../packages/ssx-authjs",
     "siwe": "^2.1.3"
   },
